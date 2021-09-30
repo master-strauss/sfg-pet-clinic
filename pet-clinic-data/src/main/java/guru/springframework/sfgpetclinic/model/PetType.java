@@ -2,7 +2,7 @@ package guru.springframework.sfgpetclinic.model;
 
 /* cucul created on 29/09/2021 inside the package - guru.springframework.sfgpetclinic.model */
 
-public class PetType {
+public class PetType extends BaseEntity {
     public String getName() {
         return name;
     }
