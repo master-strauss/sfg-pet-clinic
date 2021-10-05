@@ -1,4 +1,6 @@
-package guru.springframework.sfgpetclinic.model;/* cucul created on 04/10/2021 inside the package - guru.springframework.sfgpetclinic.model */
+package guru.springframework.sfgpetclinic.model;
+
+/* cucul created on 04/10/2021 inside the package - guru.springframework.sfgpetclinic.model */
 
 import javax.persistence.*;
 import java.time.LocalDate;
