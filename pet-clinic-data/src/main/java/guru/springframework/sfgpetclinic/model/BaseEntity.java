@@ -1,11 +1,16 @@
 package guru.springframework.sfgpetclinic.model;/* cucul created on 30/09/2021 inside the package - guru.springframework.sfgpetclinic.model */
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @MappedSuperclass
 public class BaseEntity implements Serializable {
     
